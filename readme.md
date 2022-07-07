@@ -9,7 +9,7 @@ A website for the Rotaract Club of Buloba.
 ## Developers
 [Kato Trevor](https://github.com/Kato-Trevor)
 
-[Mikael Ajuna](https://github.com/code-maestro)
+[mikael](https://github.com/code-maestro)
 
 
 ## License
