@@ -1,4 +1,16 @@
+/*!
+=========================================================
+* Steller Landing page
+=========================================================
 
+* Copyright: 2019 DevCRUD (https://devcrud.com)
+* Licensed: (https://devcrud.com/licenses)
+* Coded by www.devcrud.com
+
+=========================================================
+
+* The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+*/
 :root {
   --blue: #79A9F5;
   --indigo: #C45F90;
@@ -568,7 +580,7 @@ pre code {
 
 @media (min-width: 1200px) {
   .container {
-    max-width: 1140px;
+    max-width: 1300px;
   }
 }
 
@@ -11338,7 +11350,7 @@ pre {
 }
 
 .navbar .navbar-brand img {
-  width: 75px;
+  width: 200px;
   -webkit-filter: drop-shadow(1px 2px 25px rgba(206, 212, 218, 0.9));
           filter: drop-shadow(1px 2px 25px rgba(206, 212, 218, 0.9));
 }
@@ -11442,7 +11454,7 @@ pre {
 }
 
 .header {
-  height: 94vh;
+  height: 80vh;
   min-height: 650px;
   border-bottom: 1px solid #dee2e6;
 }
