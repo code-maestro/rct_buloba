@@ -215,7 +215,7 @@ width: 30%;
 .navbar-toggler { background-color: #ffffff; }
 .logo { display: none;}
 .menu_main{ display: none; }
-.logo_mobile { width: 13%; padding: 0px; }
+.logo_mobile { width: 20%; padding: 0px; }
 .mobile_menu {display: initial;}
 .your_text { font-size: 24px; }
 .Shows_text { font-size: 30px; }
@@ -298,7 +298,7 @@ padding: 126px 40px;
 .navbar-toggler { background-color: #ffffff; }
 .logo { display: none;}
 .menu_main{ display: none; }
-.logo_mobile { width: 13%; padding: 0px; }
+.logo_mobile { width: 35%; padding: 0px; }
 .mobile_menu {display: initial;}
 .your_text { font-size: 24px; }
 .Shows_text { font-size: 30px; }
@@ -419,7 +419,7 @@ ul.link li {
 .navbar-toggler { background-color: #ffffff; }
 .logo { display: none;}
 .menu_main{ display: none; }
-.logo_mobile { width: 13%; padding: 0px; }
+.logo_mobile { width: 40%; padding: 0px; }
 .mobile_menu {display: initial;}
 .your_text { font-size: 24px; }
 .Shows_text { font-size: 30px; }
