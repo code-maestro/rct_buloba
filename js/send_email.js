@@ -21,7 +21,7 @@ async function sendEmail() {
       }
     }
 
-    const response = await fetch(`/rct-send-mail.onrender.com/send-email`, options);
+    const response = await fetch(`/https://rct-send-mail.onrender.com/send-email`, options);
 
     if (!response.ok) {
 
