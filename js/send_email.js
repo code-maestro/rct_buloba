@@ -14,7 +14,7 @@ async function sendEmail() {
 
     // request options
     const options = {
-      method: 'GET',
+      method: 'POST',
       body: JSON.stringify(newMessage),
       headers: {
         'Content-Type': 'application/json'
@@ -50,41 +50,3 @@ async function sendEmail() {
   catch (error) { console.log(error); }
 
 }
-
-
-// Getting schedule listings from backend
-async function sendMail() {
-
-  try {
-    // request options
-    const options = {
-      method: 'GET',
-      headers: {
-        'Content-Type': 'application/json'
-      }
-    }
-
-    let res = await fetch(`/https://rct-send-mail.onrender.com/send-mail?id=adf`, options);
-
-    const data = await res.json();
-
-    console.log(data);
-
-  } catch (error) {
-
-    console.log(error);
-
-  }
-
-}
-
-
-
-// const sendEmailForm = document.forms.namedItem("sendEmailForm");
-// sendEmailForm.addEventListener("submit", (event) => {
-//   sendEmail();
-//   event.preventDefault();
-// },
-//   false
-// );
-
