@@ -782,12 +782,10 @@ button {
     padding-top: 30px;
 }
 .send_bt {
-    width: 25%;
-    float: left;
+    /* width: 25%; */
+    /* float: left; */
     margin-top: 40px;
     margin-bottom: 40px;
-}
-.send_bt a{
     width: 100%;
     float: left;
     font-size: 20px;
@@ -797,7 +795,8 @@ button {
     padding: 10px 0px;
     text-transform: uppercase;
 }
-.send_bt a:hover{
+
+.send_bt:hover{
     color: #ffffff;
     background-color: #000;
 }
@@ -833,6 +832,15 @@ button {
     float: left;
     font-size: 24px;
     color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.feedback_msg {
+    width: 100%;
+    float: left;
+    font-size: 24px;
+    color: #85346e;
     text-transform: uppercase;
     font-weight: bold;
 }
